@@ -1,0 +1,158 @@
+Body {
+  font-family: Helvetica;
+  background: #000;
+  justify-content: center;
+}
+
+#Move {
+  position: absolute;
+  top: 760px;
+  left: 30px;
+}
+
+#Move2 {
+  position: absolute;
+  top: 760px;
+  left: 490px;
+}
+
+#Move3 {
+  position: absolute;
+  top: 760px;
+  left: 950px;
+}
+
+.button {
+  position: absolute;
+  border-radius: 4px;
+  background-color: #3a2361;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#NZXT
+{
+  position: absolute;
+  left: 790px;;
+  top: 120px;
+}
+
+#Content
+{
+  position: absolute;
+  color: #fff;
+  top: 200px;
+  left: 100px;
+}
+
+#primary_nav_wrap
+{
+	margin-top:15px;
+  background-color: #000;
+  padding-left: 450px;
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	font-weight:200;
+	font-size:18px;
+	line-height:32px;
+	padding:0 15px;
+	font-family: Helvetica;
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:20px 10px;
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background:#000;
+  color: #fff;
+}
+
+#primary_nav_wrap ul li:hover
+{
+	background:#333;
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#000;
+	padding:0;
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px;
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:0px 0px;
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%;
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block;
+}
